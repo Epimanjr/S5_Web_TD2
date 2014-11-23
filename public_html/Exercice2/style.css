@@ -1,0 +1,75 @@
+/* Pour le pied de page */
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
+	color: blue;
+	background-image: url(images/fond.jpeg);
+}
+
+#footer {
+	border-top: solid gray 1px;
+	margin-top: 100px;
+	padding-top: 20px;
+	text-align: right;
+	color: gray;
+}
+
+/* Pour la barre des liens */
+#nav {
+	margin-left: 20%;
+}
+
+#nav a {
+	margin-left: 40px;
+	border: solid 1px black;
+}
+
+/* Couleur au survol de la souris */
+a:hover {
+	color: orange;
+}
+
+#formenvoyer {
+	margin-left: 20%;
+}
+
+form label {
+	color: green;
+	display: inline-block;
+	width: 400px;
+}
+
+.stylemusique {
+	width: 144px;
+}
+
+#inputEmail {
+	width: 300px;
+}
+
+.genre {
+	display: inline-block;
+	width: 90px;
+	color: green;
+}
+
+#pgenre {
+	margin-left: 20%;
+}
+
+.description {
+	font-style: italic;
+	text-align: right;
+}
+
+h1, h2 {
+	color: red;
+}
+
+/* Modification des champs liés à la vérification du formulaire */
+#verifNomUtilisateur, #verifPassword, #verifConfirmation, #verifEmail, #verifGenres{
+	display : none;
+	color: red;
+	margin-left: 10%;
+}
+
+
